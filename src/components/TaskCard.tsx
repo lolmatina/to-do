@@ -9,7 +9,7 @@ interface TaskCardProps {
   isDragging?: boolean;
 }
 
-export const TaskCard = ({ task, category, onEdit, onDelete, isDragging }: TaskCardProps) => {
+export const TaskCard = ({ task, category, onEdit, onDelete }: TaskCardProps) => {
   const getStatusConfig = (status: string) => {
     const statusConfig = {
       'pending': { 

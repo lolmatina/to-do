@@ -1,5 +1,3 @@
-import { Modal } from './Modal';
-
 interface ConfirmModalProps {
   isOpen: boolean;
   onClose: () => void;
